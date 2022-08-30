@@ -1,0 +1,109 @@
+
+
+De atins la curs 1:
+* descriere generala python
+* hello world
+* descriere tipuri de date de baza (numerice, string, bool)
+* instructiune conditionala IF
+
+Idei exercitii curs 1:
+* operatii aritmetice de acelasi tip:
+x+y
+x-y
+x/y
+x%y
+
+x (boolean) y
+
+string + string
+
+* operatii aritmetice intre diferite tipuri:
+int (op) float
+string (op) int
+string (op) float
+
+* operatii si actiuni conditionale
+if-uri/ if-else-uri
+
+
+Exercitii:
+1. Se dau o lista de invitati la un eveniment (sub forma unui sir) si numele unei persoane (tot sir). Sa se determine daca persoana mentionata se afla in lista de invitati.
+2. Pentru 3 cutii de depozitare se dau dimensiunile acestora(lungime, latime, inaltime). Sa se determine daca in cea mai mare cutie se pot depozita celelalte 2 cutii.
+3. O pizza are diametrul dat D si ea trebuie impartita intre N oameni, fiecare mancand un numar individual de felii. 
+	* in cate felii de trebuie taiata pizza?
+	* care este aria unei felii de pizza?
+4. Se dau lungimile a 3 segmente. Determinati, printr-un program, daca segmentele pot forma un triughi dreptunghic (Hint: Pitagora)
+5. Un client depune intr-un depozit bancar o suma X de bani, depozitul avand o dobanda anuala Y. Sa se determine si sa se afiseze care este suma de bani totala din cont dupa N ani. (Date de intrare: X, Y si N)
+6. 
+
+
+Exercitii tema:
+1. Sa se determine daca un sir de caractere este egal cu inversul lui (sau, altfel spus, sirul este un palindrom) (Ex: "minim", "aerisirea", "sa nu iei un as", "151"). 
+   * Hint: pentru a inversa un sir: 
+	# sir_invers = sir[::-1]
+   * Atentie: tratati cazul in care avem de-a face cu un numar propriu-zis (Ex: Primim numarul 151, nu sirul "151")! Hint: typeof, conversie de tip
+   * Intrebare extra: de ce, daca sirul incepe cu o litera mare, Python NU considera sirul inversat ca fiind acelasi sir? (Hint: case???)
+   ** De exemplu: "sa nu iei un as" si inversul lui sunt considerate la fel, dar "Sa nu iei un as" si inversul lui "sa nu iei un aS" nu sunt considerate la fel de Python
+   
+2. O firma are disponibile cifrele de afaceri pe primii 2 ani de existenta. Sa se determine procentul de crestere a activitatii de la un an la altul si sa se afiseze ca numar (Ex: 25.3%, -7%)
+   * date de intrare: cifra afaceri an 1, cifra afaceri an 2 (numere intregi sau cu virgula)
+   * sa se determine si sa se afiseze, printr-un mesaj specific, daca firma a crescut sau a scazut (Ex: "cifra de afaceri a crescut", "cifra de afaceri a scazut")
+   * Atentie: se poate ca in primul an firma sa nu fi avut activitate. Care ar fi problema in acest caz? La ce trebuie sa fim atenti cand facem calculele?
+
+3. Sa se determine media unui elev are 2 note A si B la o materie. Numerele pot fi intregi sau cu virgula! Media, insa, trebuie sa fie numar intreg, rotunjind la cel mai apropiat numar intreg (ex. 8.4 -> 8, 9.6 -> 10)
+   * calculati si media pentru situatia in care materia are si teza, cu pondere 25% din materie.
+
+3. Se dau un an istoric si un secol ca date de intrare. Sa se verifice daca anul se incadreaza in secolul respectiv (Ex: anul 1807 si secolul 19 -> se incadreaza pentru ca este intre 1801 si 1900)
+   * Atentie: anul si secolul pot fi si din viitor!
+
+4. Sa se determine suma a doua numere complexe date si sa se afiseze. 
+   * Sa se verifice daca, prin insumare, numarul rezultat este chiar unul real (partea imaginara este 0) si sa se afiseze printr-un nou mesaj confirmarea sau infirmarea acestui lucru (Ex: "numarul este real" sau "numarul nu este real").
+
+5. O firma are 3 angajati, fiecare cu cate un salariu (numar intreg sau cu virgula). Sa se determine cine are cel mai mare salariu in firma.
+
+6. Vrem sa compunem o urare pentru cineva. Urarea urmeaza a fi printata pe o carte postala. Sa se scrie un program in care sa avem ca date de intrare urarea si numele persoanei si printam urarea rezultata. 
+(Ex: "La multi ani" si "Ion" -> "La multi ani, Ion!")
+   * Rezolvati prin 2 metode de operatii pe siruri (hint: concatenare si formatare)
+
+
+
+
+
+
+ZIUA 2:
+
+Exercitii:
+1. Se dau lungimile a 3 segmente. Determinati, printr-un program, daca segmentele pot forma un triughi dreptunghic (Hint: Pitagora)
+2. Intr-o clasa sunt N elevi. Pentru fiecare din ei, primim inaltimea acestuia in cm. 
+	* Sa se determine care este inaltimea medie in clasa.
+	* Sa se determine care este inaltimea celui mai scund elev
+	* sa se determine care este inaltimea celui mai inalt elev
+
+3. Intr-o firma, 3 angajati au salariile variabile, in functie de vanzari. Se da salariul fiecaruia pe N luni.
+	* sa se determine care angajat a avut cel mai mare salariu mediu pentru perioada de N luni.
+
+4.  Pentru un N dat, sa se afiseze un brad de craciun respectand urmatorul pattern:
+exemplu pentru N=5 (trunchiul are lungime 5 si latimea bazei 5)
+
+    *
+   ***
+  *****
+ *******
+*********
+    *
+    *
+
+
+5. Intr-o firma sunt N angajati. Se da salariul lunar al fiecarui angajat. Se mai da un prag salarial P, peste care au numai angajatii din conducere
+	* Sa se determine cati angajati au salariul mai mare sau egal cu pragul P.
+	* Sa se calculeze salariul mediu doar pentru angajatii din conducere
+
+6. Fie N un numar citit. Mai citim o lista de N elemente numere intregi. 
+	* Sa se separe lista in 2 liste: una contine numai numere pare, cealalta numai numere impare.
+
+7. O pizza are diametrul dat D si ea trebuie impartita intre N oameni, fiecare mancand un numar individual de felii. 
+	* in cate felii de trebuie taiata pizza?
+	* care este aria unei felii de pizza?
+Bonus. Se dau lungimile a 3 segmente. Determinati, printr-un program, daca segmentele pot forma un triughi dreptunghic (Hint: Pitagora)
+
+Exercitii tema:
